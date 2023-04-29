@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+}
+
+.header_top{
+    background-color: #032154;
+    padding: 14px 0;
+    color:#fff;
+}
+
+.header_bottom {
+    background-color: #032154;
+    color:#fff;
+}
+.header_top .container , .header_middle .container, 
+.header_bottom .container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.fa {
+    color: #fff;
+}
+.header_top .container .social_icons {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.social_icons li {
+    margin-right: 16px;
+}
+
+.header_middle {
+    background-color: #fff;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.header_middle .container h1 {
+    color: #f2db18;
+    font-size:36px;
+}
+
+.header_bottom .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_bottom .container .social_icon1 {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_bottom .container .social_icon1  li {
+    margin-right: 10px;
+    padding: 24px 22px;
+}
+.active {
+    background-color: #f2db18;
+}
+.header_bottom .container .social_icon1 li:hover {
+    background-color: #f2db18;
+    transition: ease-in-out .2s;
+}
+
+.header_bottom .container .social_icon1 li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header_bottom .container .sign {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_bottom .container .sign li {
+    margin-right: 10px;
+    padding: 12px 24px;
+}
+
+.sign-up .sign li:nth-child(2) {
+    background-color: #f2db18;
+    border-radius: 12px;
+    margin-left: 60px;
+}
+
+.sign-up .sign li:nth-child(2) a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content  img{
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.text {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+.text h1 {
+    font-size: 60px;
+}
+
+.text h3 {
+    color: #f2db18;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+
+.text p {
+    margin-bottom: 30px;
+}
+.text a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 30px;
+}
